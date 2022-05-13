@@ -23,6 +23,7 @@ function changeTheme(theme) {
     changeProperty(prop, theme[prop]);
   }
 }
+
 function changeProperty(property, value) {
   rootElement.style.setProperty(property, value);
 }
